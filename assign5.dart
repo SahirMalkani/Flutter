@@ -114,4 +114,35 @@ days1.remove(days1[0]);
   print(expenses1); 
   
   
+  
+  
+  
+// Q.9: Given a list of integers, write a dart code that returns the maximum value from the list.
+  List<int> liststdMarks11= 
+    [50,60,70,80,90,55,14,65,99,25,51001,5];
+     
+  
+    print (liststdMarks11.reduce(max));
+
+  
+  // Q.12: Write a Dart code that takes in a list of strings and prints a new list with the elements in reverse order. The original list should remain unchanged.
+
+  
+    List<String> days0 = 
+      ["monday", "tuesday", "wednesday","thursday","friday","saturday","sunday"];
+  
+  print (days0);
+  
+  
+   
+  List list111New = [];
+  
+     list111New.addAll(days.reversed);
+ 
+  
+  print (list111New );
+   print (days0);
+ 
+  
+  
 }
